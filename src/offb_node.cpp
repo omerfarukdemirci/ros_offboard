@@ -82,7 +82,7 @@ int main(int argc, char **argv)
 
    
 
-    system("rosrun mavros mavwp load /home/$USER/flightplan/ardu.txt");
+    system("rosrun mavros mavwp load /home/$USER/catkin_ws/src/ros_offboard/missions/ardu.txt");
 
     mavros_msgs::SetMode offb_set_mode;
     offb_set_mode.request.custom_mode = "GUIDED";
