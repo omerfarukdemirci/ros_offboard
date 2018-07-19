@@ -1,0 +1,7 @@
+			Omer Faruk Demirci
+
+
+--This package contains a mission based autonomous flight for ardupilot. 
+
+--To be able to use this package, you need to copy the ros_offboard package under the src file in your catkin workspace. Then, you need to correct the path of ardu.txt file which includes the mission in it. You can find the code of the path by following this path /ros_offboard/src/offb_node.cpp. After that, you can open offb_node.cpp and correct the path based on your file management. Finally, you can call the catkin_make command while you are in your catkin work space.
+
